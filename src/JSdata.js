@@ -3,7 +3,7 @@ const data = [
 		id: 1,
 		question: "What is the difference between let, const, and var?",
 		answer:
-			"Var is function-scoped, hoisted, and can be redeclared. Var attaches to the window object; let/const do not. Let and const are block-scoped and cannot be redeclared in the same scope. Const cannot be reassigned (but its properties are mutable). Let allows reassignment. ",
+			"Var is function-scoped, hoisted, and can be redeclared, it attaches to the window object; let/const do not. Let and const are block-scoped and cannot be redeclared in the same scope. Const cannot be reassigned (but its properties are mutable). Let allows reassignment. ",
 	},
 	{
 		id: 2,
@@ -15,7 +15,7 @@ const data = [
 		id: 3,
 		question: "What is the difference between == and === ?",
 		answer:
-			"== performs type coercion before comparing (e.g., 1 == '1' is true). === compares both value and type without coercion (1 === '1' is false). Always use === to avoid unexpected bugs.",
+			"== performs type coercion before comparing. === compares both value and type without coercion. Always use === to avoid unexpected bugs.",
 	},
 	{
 		id: 4,
