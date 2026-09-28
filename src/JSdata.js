@@ -18,7 +18,7 @@ const data = [
 			"== performs type coercion before comparing. === compares both value and type without coercion. Always use === to avoid unexpected bugs.",
 	},
 	{
-		id: 4,
+		id: 4,else
 		question:
 			"What is an Arrow Function, and how does it differ from a regular function?",
 		answer:
